@@ -2,9 +2,9 @@
 
 var partGameObject : GameObject[];
 
-function Update () {
+/*function Update () {
 
-	var spectrum : float[] = audio.GetSpectrumData (1024, 0, FFTWindow.BlackmanHarris);
+	var spectrum : float[] = audioSrc.GetSpectrumData (audioSrc.clip.samples, 0, FFTWindow.BlackmanHarris);
 
 	var idx = 0;
 
@@ -17,8 +17,5 @@ function Update () {
 
 		idx+=20;
 	}
-	
-	
-	
 
-}
+}*/
