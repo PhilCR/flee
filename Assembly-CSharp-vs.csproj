@@ -47,8 +47,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AudioVisualizer.cs" />
+     <Compile Include="Assets\Scripts\Moving.cs" />
      <Compile Include="Assets\Scripts\Roads.cs" />
-     <Compile Include="Assets\Scripts\TransformFunctions.cs" />
      <Compile Include="Assets\Scripts\TransformPrefab.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
