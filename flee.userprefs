@@ -1,9 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/FolderMusic.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BuildingEffect.js">
     <Files>
-      <File FileName="Assets/Scripts/Moving.cs" Line="29" Column="12" />
-      <File FileName="Assets/Scripts/FolderMusic.js" Line="13" Column="49" />
+      <File FileName="Assets/Scripts/MusicalEffect.js" Line="61" Column="4" />
+      <File FileName="Assets/Scripts/BuildingEffect.js" Line="14" Column="51" />
+      <File FileName="Assets/Scripts/MusicEffect.js" Line="13" Column="6" />
+      <File FileName="Assets/Scripts/AudioVisualizer.cs" Line="88" Column="19" />
+      <File FileName="Assets/Scripts/Obstacle.js" Line="8" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
