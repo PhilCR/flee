@@ -1,62 +1,106 @@
 ﻿import System.IO;
+/*
+	MusicalEffect Script
 
-//Just to control the music
+With this script is possible to load AudioClips from a external folder mFolder
+and play the AudioClip given by the index idx as the audio core and create a
+level with such lenght as it has.
+*/
+
+
+
+/* AudioClip control */
 var idx = 0;
-var mName : String;
+var musicName : String;
 var mFolder = "/Music/";
 var filePaths : String[];
 
-var platform : GameObject;
+//
+var player : GameObject;
+
+/* Platform Control */
+var platform : GameObject; //Level to be replicated
 var goal : GameObject;
-var speed = 2;
+
 var audioSrc : AudioSource;
 
-function Start() {
-    
+var audioFX : AudioSource;
+var fxSounds : AudioClip[];
+
+function Start(){
+
+    //Gets localPath using a mask due its platform
     var localPath : String;
     localPath = Application.dataPath;
     localPath =	localPath.Replace("/Alpha.app/Contents","");
-    localPath =	localPath.Replace("/Assets","");
     
-    if (Application.platform == RuntimePlatform.WindowsPlayer)
-
+    if (Application.platform == RuntimePlatform.OSXPlayer){
+    	Debug.Log("Application Platform: OSX Player");
+    }
+    
+    if (Application.platform == RuntimePlatform.WindowsPlayer){
+    	Debug.Log("Application Platform: Windows Player");
+    }
 		
-    if (Application.platform == RuntimePlatform.OSXEditor)
+    if (Application.platform == RuntimePlatform.OSXEditor){
+    	Debug.Log("Application Platform: OSX Editor");
     	localPath =	localPath.Replace("/Assets","");
+    }	
     
-    if (Application.platform == RuntimePlatform.WindowsEditor)
+    if (Application.platform == RuntimePlatform.WindowsEditor){
+    	Debug.Log("Application Platform: Windows Editor");
     	localPath =	localPath.Replace("/Assets","");
+    }
     
     filePaths = Directory.GetFiles(localPath + mFolder,"*.ogg");
     
     if (filePaths == null){
-    	Debug.LogError("Null filePath on getting musics from fodler");
+    	Debug.LogError("Null filePath on getting musics from folder");
     	return;
     }
     
-    PlayMusic(idx);
-     
+    Debug.Log("Local Music Folder Path: " + localPath + mFolder);
+    
+    //Get music from chosen filePath[idx]
+    ChooseMusic(idx);
+    
+    //Gives enough time to load music
+    yield 2;
+    
+    //Creates level according with AudioClip length
+    GenerateLevel();
 }
 
-function PlayMusic (idx){
+function ChooseMusic(idx){
+	
+	
 	var www = new WWW( "file://" + filePaths[idx]);
     var clip : AudioClip = www.audioClip;
     
-    mName = clip.name;
+    musicName = clip.name;
+    
+    Debug.Log("Gets AudioClip " + clip.name + " from file://" + filePaths[idx]);
+    
     while(!clip.isReadyToPlay){
+    	Debug.Log("Waiting AudioClip to load");
     	yield 2;
     }
     
     audioSrc.Stop();
     audioSrc.clip = clip;
-    audioSrc.Play(); 
-    
+    audioSrc.Play();
+   	
+   	audioFX.clip = fxSounds[0];
+   	audioFX.PlayDelayed(clip.length);   
+}
+
+function GenerateLevel(){
     var i;
-	var nPlatforms = audioSrc.clip.length / speed;
-	
-	for (i = 1; i < nPlatforms-1; i++){
-		Instantiate (platform, Vector3(-1.2, 0, i * 50), Quaternion.identity);
-	}
-	
-	//goal.transform.Translate(Vector3(0,-3,i*50));
+    var nPlatforms = audioSrc.clip.length / 2;
+    	
+	    for (i = 1; i < nPlatforms+4; i++){
+	        Instantiate (platform, Vector3(-1.2, 0, i * 50), Quaternion.identity);
+	    }
+    
+    //goal.transform.Translate(Vector3(0,-3,i*50));
 }

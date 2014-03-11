@@ -48,12 +48,15 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BuildingEffect.js" />
      <Compile Include="Assets\Scripts\Camera.js" />
+     <Compile Include="Assets\Scripts\ColorBlink.js" />
      <Compile Include="Assets\Scripts\GUICreation.js" />
      <Compile Include="Assets\Scripts\LevelGenerator.js" />
-     <Compile Include="Assets\Scripts\Metronomy.js" />
-     <Compile Include="Assets\Scripts\MusicEffect.js" />
+     <Compile Include="Assets\Scripts\MovesPlatform.js" />
+     <Compile Include="Assets\Scripts\MovesPlayer.js" />
      <Compile Include="Assets\Scripts\MusicalEffect.js" />
+     <Compile Include="Assets\Scripts\MusicalMenu.js" />
      <Compile Include="Assets\Scripts\Obstacle.js" />
+     <Compile Include="Assets\Scripts\ObstaclesGeneration.js" />
      <Compile Include="Assets\Scripts\Score.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

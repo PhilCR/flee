@@ -46,10 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\AudioVisualizer.cs" />
-     <Compile Include="Assets\Scripts\Moving.cs" />
      <Compile Include="Assets\Scripts\Roads.cs" />
-     <Compile Include="Assets\Scripts\TransformPrefab.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
