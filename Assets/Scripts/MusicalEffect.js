@@ -29,7 +29,6 @@ var isPause = false;
 var startGUI : GUITexture[];
 
 function Start(){
-	Time.timeScale = 0;
 	audioSrc.Pause();
 	
     //Gets localPath using a mask due its platform
@@ -73,6 +72,11 @@ function Start(){
     //Creates level according with AudioClip length
     GenerateLevel();
 
+	Time.timeScale = 1;
+	
+	Time.timeScale = 0;
+	
+    Time.timeScale = 0;
     
     for (var textureGUI in startGUI){
     	textureGUI.enabled = true;

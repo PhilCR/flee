@@ -15,16 +15,16 @@ function Update () {
 	}
 	
 	if (Input.GetKey (KeyCode.LeftArrow)){
-		if (player.transform.localPosition.x < -4.5f){
-			player.transform.localPosition.Set (-4.5f, player.transform.localPosition.y, player.transform.localPosition.z);
+		if (player.transform.localPosition.x < -4f){
+			player.transform.localPosition.Set (-4f, player.transform.localPosition.y, player.transform.localPosition.z);
 		}else{
 			player.transform.Translate (-Vector3.right * sideSpeed * Time.deltaTime);
 		}
 	}
 	
 	if (Input.GetKey (KeyCode.RightArrow)){
-		if (player.transform.localPosition.x > 4.5f){
-			player.transform.localPosition.Set (4.5f, player.transform.localPosition.y, player.transform.localPosition.z);
+		if (player.transform.localPosition.x > 4f){
+			player.transform.localPosition.Set (4f, player.transform.localPosition.y, player.transform.localPosition.z);
 		}else{
 			player.transform.Translate (Vector3.right * sideSpeed * Time.deltaTime);
 		}	
@@ -36,12 +36,12 @@ function Update () {
 		}
 	}
 
-	if (player.transform.localPosition.x < -4.5f){
-		player.transform.localPosition.Set (-4.5f, player.transform.localPosition.y, player.transform.localPosition.z);
+	if (player.transform.localPosition.x < -4f){
+		player.transform.localPosition.Set (-4f, player.transform.localPosition.y, player.transform.localPosition.z);
 	}
 	
-	if (player.transform.localPosition.x > 4.5f){
-		player.transform.localPosition.Set (4.5f, player.transform.localPosition.y, player.transform.localPosition.z);
+	if (player.transform.localPosition.x > 4f){
+		player.transform.localPosition.Set (4f, player.transform.localPosition.y, player.transform.localPosition.z);
 	}
 	
 }
