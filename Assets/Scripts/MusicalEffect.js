@@ -27,6 +27,8 @@ var audioSrc : AudioSource;
 var audioFX : AudioSource;
 var fxSounds : AudioClip[];
 
+var isPause = false;
+
 function Start(){
 
     //Gets localPath using a mask due its platform
@@ -72,7 +74,6 @@ function Start(){
 }
 
 function ChooseMusic(idx){
-	
 	
 	var www = new WWW( "file://" + filePaths[idx]);
     var clip : AudioClip = www.audioClip;
