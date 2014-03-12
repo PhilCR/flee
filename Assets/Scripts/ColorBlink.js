@@ -25,7 +25,7 @@ function Start () {
 }
 
 function Update () {
-	var sample : float[];
-	sample = audioSrc.GetSpectrumData(64, 0, FFTWindow.BlackmanHarris);
-	light.intensity = sample[color*2] * 500;
+	var spectrum : float[];
+	spectrum = audioSrc.GetSpectrumData(64, 0, FFTWindow.BlackmanHarris);
+	light.intensity = spectrum[color*2] * 1000;
 }

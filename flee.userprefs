@@ -1,9 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Score.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MusicalEffect.js">
     <Files>
-      <File FileName="Assets/Scripts/ColorBlink.js" Line="30" Column="34" />
-      <File FileName="Assets/Scripts/Score.js" Line="11" Column="2" />
+      <File FileName="Assets/Scripts/MusicalEffect.js" Line="84" Column="16" />
+      <File FileName="Assets/Scripts/ColorBlink.js" Line="31" Column="2" />
+      <File FileName="Assets/Scripts/BuildingEffect.js" Line="25" Column="2" />
+      <File FileName="Assets/Scripts/Obstacle.js" Line="22" Column="35" />
+      <File FileName="Assets/Scripts/Score.js" Line="19" Column="2" />
+      <File FileName="Assets/Scripts/LevelControl.js" Line="13" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

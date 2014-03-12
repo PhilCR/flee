@@ -4,7 +4,7 @@
 
 With this script is possible to load AudioClips from a external folder mFolder
 and play the AudioClip given by the index idx as the audio core and create a
-level with such lenght as it has.
+level with such lenght as it has and its obstacles.
 */
 
 
@@ -14,9 +14,6 @@ var idx = 0;
 var musicName : String;
 var mFolder = "/Music/";
 var filePaths : String[];
-
-//
-var player : GameObject;
 
 /* Platform Control */
 var platform : GameObject; //Level to be replicated
@@ -29,8 +26,12 @@ var fxSounds : AudioClip[];
 
 var isPause = false;
 
-function Start(){
+var startGUI : GUITexture[];
 
+function Start(){
+	Time.timeScale = 0;
+	audioSrc.Pause();
+	
     //Gets localPath using a mask due its platform
     var localPath : String;
     localPath = Application.dataPath;
@@ -71,6 +72,34 @@ function Start(){
     
     //Creates level according with AudioClip length
     GenerateLevel();
+
+    
+    for (var textureGUI in startGUI){
+    	textureGUI.enabled = true;
+    	yield 100;
+    	yield 100;
+    	yield 100;
+    	yield 100;
+    	yield 100;
+    	yield 100;
+    	yield 100;
+    	yield 100;
+    	yield 100;
+    	yield 100;
+    	yield 100;
+    	yield 100;
+    	yield 100;
+    	yield 100;
+    	textureGUI.enabled = false;
+    }
+    
+    
+    audioSrc.Play();
+    Time.timeScale = 1;
+}
+
+function Update(){
+	//GenerateObstacles();
 }
 
 function ChooseMusic(idx){
@@ -87,21 +116,24 @@ function ChooseMusic(idx){
     	yield 2;
     }
     
-    audioSrc.Stop();
     audioSrc.clip = clip;
-    audioSrc.Play();
    	
    	audioFX.clip = fxSounds[0];
-   	audioFX.PlayDelayed(clip.length);   
+   	audioFX.PlayDelayed(clip.length);  
 }
 
 function GenerateLevel(){
     var i;
-    var nPlatforms = audioSrc.clip.length / 2;
-    	
-	    for (i = 1; i < nPlatforms+4; i++){
-	        Instantiate (platform, Vector3(-1.2, 0, i * 50), Quaternion.identity);
-	    }
+	var nPlatforms = audioSrc.clip.length / 2;	
     
-    //goal.transform.Translate(Vector3(0,-3,i*50));
+    for (i = 1; i < nPlatforms+4; i++){
+        Instantiate (platform, Vector3(-1.2, 0, i * 50), Quaternion.identity);
+    }
+}
+
+function GenerateObstacles(){
+	while (audioSrc.isPlaying){
+		var spectrum : float[];
+		spectrum = audioSrc.GetSpectrumData(audioSrc.clip.samples, 0, FFTWindow.BlackmanHarris);	
+	}
 }
