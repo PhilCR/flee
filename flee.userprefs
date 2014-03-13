@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Obstacle.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Initial.js">
     <Files>
-      <File FileName="Assets/Scripts/Initial.js" Line="246" Column="30" />
+      <File FileName="Assets/Scripts/Initial.js" Line="104" Column="47" />
       <File FileName="Assets/Scripts/ColorBlink.js" Line="1" Column="1" />
       <File FileName="Assets/Scripts/BuildingEffect.js" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Obstacle.js" Line="25" Column="26" />

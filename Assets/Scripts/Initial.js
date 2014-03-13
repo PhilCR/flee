@@ -101,7 +101,7 @@ function Start(){
     
     audioSrc.Play();
     Time.timeScale = 1;
-    GenerateObstacles();
+    InvokeRepeating("GenerateObstacles", 0,0.6); 
     
 }
 
@@ -261,7 +261,5 @@ spectrum 0 = 0 - 21
 				break;
 		
 		}
-		
-		Invoke("GenerateObstacles", 0.35); 
 	}
 }
