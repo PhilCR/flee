@@ -49,10 +49,10 @@
      <Compile Include="Assets\Scripts\BuildingEffect.js" />
      <Compile Include="Assets\Scripts\Camera.js" />
      <Compile Include="Assets\Scripts\ColorBlink.js" />
+     <Compile Include="Assets\Scripts\Initial.js" />
      <Compile Include="Assets\Scripts\LevelControl.js" />
      <Compile Include="Assets\Scripts\MovesPlatform.js" />
      <Compile Include="Assets\Scripts\MovesPlayer.js" />
-     <Compile Include="Assets\Scripts\MusicalEffect.js" />
      <Compile Include="Assets\Scripts\MusicalMenu.js" />
      <Compile Include="Assets\Scripts\Obstacle.js" />
      <Compile Include="Assets\Scripts\Score.js" />

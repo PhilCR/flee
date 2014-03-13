@@ -19,7 +19,7 @@ function Update(){
 }
 
 function OnGUI(){
-	var MainMenu : Rect = Rect(Screen.width/3, Screen.height/3 - 50, 200, 200);
+	var MainMenu : Rect = Rect(Screen.width/2 - 50, Screen.height/2 - 50, 100, 100);
    if(isPause)
        GUI.Window(0, MainMenu, TheMainMenu, "Pause");
 }
