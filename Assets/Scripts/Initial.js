@@ -133,9 +133,8 @@ function ChooseMusic(idx){
 function GenerateLevel(){
     var i;
 	var nPlatforms = audioSrc.clip.length / 2;	
-    
     for (i = 1; i < nPlatforms+4; i++){
-        Instantiate (platform, Vector3(-1.2, 0, i * 50), Quaternion.identity);
+        Instantiate (platform, Vector3(platform.transform.localPosition.x, platform.transform.localPosition.y, i * 50), Quaternion.identity);
     }
 }
 
@@ -186,7 +185,7 @@ spectrum 0 = 0 - 21
 					switch(Random.Range(0, obstacles.Length)){
 						case 0:
 							//Double-sized obstacle
-							Instantiate (obstacles[0], Vector3(-3.65, 0, startObstacles + idxT*20), Quaternion.identity);
+							Instantiate (obstacles[0], Vector3(-3, 0, startObstacles + idxT*20), Quaternion.identity);
 							break;
 						
 						default:
@@ -250,7 +249,7 @@ spectrum 0 = 0 - 21
 					switch(Random.Range(0, obstacles.Length)){
 						case 0:
 							//Double-sized obstacle
-							Instantiate (obstacles[0], Vector3(3.56, 0, startObstacles + idxT*20), Quaternion.identity);
+							Instantiate (obstacles[0], Vector3(3, 0, startObstacles + idxT*20), Quaternion.identity);
 							break;
 						
 						default:

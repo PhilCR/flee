@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\MovesPlayer.js" />
      <Compile Include="Assets\Scripts\MusicalMenu.js" />
      <Compile Include="Assets\Scripts\Obstacle.js" />
+     <Compile Include="Assets\Scripts\ObstacleEffect.js" />
      <Compile Include="Assets\Scripts\Score.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
