@@ -30,6 +30,7 @@ var startGUI : GUITexture[];
 
 var obstacles : GameObject[];
 var idxT = 0;
+var startObstacles = 20;
 
 
 function Start(){
@@ -178,18 +179,18 @@ spectrum 0 = 0 - 21
 			case lane1L:
 				if (lane1L < lane1R){
 					//Double Obstacle!!
-					Instantiate (obstacles[1], Vector3(-3.65, 0, 90 + idxT*20), Quaternion.identity);
-					Instantiate (obstacles[1], Vector3(Random.Range(-1.26, 3.7), 0, 90 + idxT*20), Quaternion.identity);
+					Instantiate (obstacles[1], Vector3(-3.65, 0, startObstacles + idxT*20), Quaternion.identity);
+					Instantiate (obstacles[1], Vector3(Random.Range(-1.26, 3.7), 0, startObstacles + idxT*20), Quaternion.identity);
 				}else{
 					//Single Obstacle
 					switch(Random.Range(0, obstacles.Length)){
 						case 0:
 							//Double-sized obstacle
-							Instantiate (obstacles[0], Vector3(-3.65, 0, 90 + idxT*20), Quaternion.identity);
+							Instantiate (obstacles[0], Vector3(-3.65, 0, startObstacles + idxT*20), Quaternion.identity);
 							break;
 						
 						default:
-							Instantiate (obstacles[Random.Range(1, obstacles.Length)], Vector3(-3.65, 0, 90 + idxT*20), Quaternion.identity);
+							Instantiate (obstacles[Random.Range(1, obstacles.Length)], Vector3(-3.65, 0, startObstacles + idxT*20), Quaternion.identity);
 							break;
 					}
 				}
@@ -198,18 +199,18 @@ spectrum 0 = 0 - 21
 			case lane2L:
 				if (lane2L < lane2R){
 					//Double Obstacle!!
-					Instantiate (obstacles[1], Vector3(-1.26, 0, 90 + idxT*20), Quaternion.identity);
-					Instantiate (obstacles[1], Vector3(Random.Range(1.1, 3.7), 0, 90 + idxT*20), Quaternion.identity);
+					Instantiate (obstacles[1], Vector3(-1.26, 0, startObstacles+ idxT*20), Quaternion.identity);
+					Instantiate (obstacles[1], Vector3(Random.Range(1.1, 3.7), 0, startObstacles+ idxT*20), Quaternion.identity);
 				}else{
 					//Single Obstacle
 					switch(Random.Range(0, obstacles.Length)){
 						case 0:
 							//Double-sized obstacle
-							Instantiate (obstacles[0], Vector3(-1.26, 0, 90 + idxT*20), Quaternion.identity);
+							Instantiate (obstacles[0], Vector3(-1.26, 0, startObstacles+ idxT*20), Quaternion.identity);
 							break;
 						
 						default:
-							Instantiate (obstacles[Random.Range(1, obstacles.Length)], Vector3(-1.26, 0, 90 + idxT*20), Quaternion.identity);
+							Instantiate (obstacles[Random.Range(1, obstacles.Length)], Vector3(-1.26, 0, startObstacles + idxT*20), Quaternion.identity);
 							break;
 					}
 				}
@@ -219,20 +220,20 @@ spectrum 0 = 0 - 21
 			case lane3L:
 				if (lane3L < lane3R){
 					//Double Obstacle!!
-					Instantiate (obstacles[1], Vector3(1.1, 0, 90 + idxT*20), Quaternion.identity);
+					Instantiate (obstacles[1], Vector3(1.1, 0, startObstacles + idxT*20), Quaternion.identity);
 					
 					
-					Instantiate (obstacles[1], Vector3(-1.26, 0, 90 + idxT*20), Quaternion.identity);
+					Instantiate (obstacles[1], Vector3(-1.26, 0, startObstacles + idxT*20), Quaternion.identity);
 				}else{
 					//Single Obstacle
 					switch(Random.Range(0, obstacles.Length)){
 						case 0:
 							//Double-sized obstacle
-							Instantiate (obstacles[0], Vector3(1.1, 0, 90 + idxT*20), Quaternion.identity);
+							Instantiate (obstacles[0], Vector3(1.1, 0, startObstacles + idxT*20), Quaternion.identity);
 							break;
 						
 						default:
-							Instantiate (obstacles[Random.Range(1, obstacles.Length)], Vector3(1.1, 0, 90 + idxT*20), Quaternion.identity);
+							Instantiate (obstacles[Random.Range(1, obstacles.Length)], Vector3(1.1, 0, startObstacles + idxT*20), Quaternion.identity);
 							break;
 					}
 				}
@@ -242,18 +243,18 @@ spectrum 0 = 0 - 21
 			case lane4L:
 				if (lane4L < lane4R){
 					//Double Obstacle!!
-					Instantiate (obstacles[1], Vector3(3.56, 0, 90 + idxT*20), Quaternion.identity);
-					Instantiate (obstacles[1], Vector3(Random.Range(-3.65,-1.26), 0, 90 + idxT*20), Quaternion.identity);
+					Instantiate (obstacles[1], Vector3(3.56, 0, startObstacles + idxT*20), Quaternion.identity);
+					Instantiate (obstacles[1], Vector3(Random.Range(-3.65,-1.26), 0, startObstacles + idxT*20), Quaternion.identity);
 				}else{
 					//Single Obstacle
 					switch(Random.Range(0, obstacles.Length)){
 						case 0:
 							//Double-sized obstacle
-							Instantiate (obstacles[0], Vector3(3.56, 0, 90 + idxT*20), Quaternion.identity);
+							Instantiate (obstacles[0], Vector3(3.56, 0, startObstacles + idxT*20), Quaternion.identity);
 							break;
 						
 						default:
-							Instantiate (obstacles[Random.Range(1, obstacles.Length)], Vector3(3.56, 0, 90 + idxT*20), Quaternion.identity);
+							Instantiate (obstacles[Random.Range(1, obstacles.Length)], Vector3(3.56, 0, startObstacles + idxT*20), Quaternion.identity);
 							break;
 					}
 				}

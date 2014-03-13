@@ -101,13 +101,301 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Abdomen
+        weight: 1
+      - path: Armature/Abdomen/Thigh_L
+        weight: 1
+      - path: Armature/Abdomen/Thigh_L/Calf_L
+        weight: 1
+      - path: Armature/Abdomen/Thigh_R
+        weight: 1
+      - path: Armature/Abdomen/Thigh_R/Calf_R
+        weight: 1
+      - path: Armature/Abdomen/Torso
+        weight: 1
+      - path: Armature/Abdomen/Torso/Neck
+        weight: 1
+      - path: Armature/Abdomen/Torso/Neck/Head
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_L
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_L/Forearm_L
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_L/Forearm_L/Hand_L
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_R
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_R/Forearm_R
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_R/Forearm_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_IK_L
+        weight: 0
+      - path: Armature/Arm_IK_R
+        weight: 0
+      - path: Armature/Elbow_L
+        weight: 0
+      - path: Armature/Elbow_R
+        weight: 0
+      - path: Armature/Knee_L
+        weight: 0
+      - path: Armature/Knee_R
+        weight: 0
+      - path: Armature/Leg_IK_L
+        weight: 0
+      - path: Armature/Leg_IK_L/Calf_L_001
+        weight: 0
+      - path: Armature/Leg_IK_R
+        weight: 0
+      - path: Armature/Leg_IK_R/Calf_R_002
+        weight: 0
+      - path: Camera
+        weight: 0
+      - path: Eyes
+        weight: 0
+      - path: Faye
+        weight: 0
+      - path: Hair_B
+        weight: 0
+      - path: Hair_F
+        weight: 0
+      - path: Lamp
+        weight: 0
+      - path: Lamp_001
+        weight: 0
+      - path: Lamp_002
+        weight: 0
+      - path: Lashes
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: -1
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Abdomen
+        weight: 1
+      - path: Armature/Abdomen/Thigh_L
+        weight: 1
+      - path: Armature/Abdomen/Thigh_L/Calf_L
+        weight: 1
+      - path: Armature/Abdomen/Thigh_R
+        weight: 1
+      - path: Armature/Abdomen/Thigh_R/Calf_R
+        weight: 1
+      - path: Armature/Abdomen/Torso
+        weight: 1
+      - path: Armature/Abdomen/Torso/Neck
+        weight: 1
+      - path: Armature/Abdomen/Torso/Neck/Head
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_L
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_L/Forearm_L
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_L/Forearm_L/Hand_L
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_R
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_R/Forearm_R
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_R/Forearm_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_IK_L
+        weight: 0
+      - path: Armature/Arm_IK_R
+        weight: 0
+      - path: Armature/Elbow_L
+        weight: 0
+      - path: Armature/Elbow_R
+        weight: 0
+      - path: Armature/Knee_L
+        weight: 0
+      - path: Armature/Knee_R
+        weight: 0
+      - path: Armature/Leg_IK_L
+        weight: 0
+      - path: Armature/Leg_IK_L/Calf_L_001
+        weight: 0
+      - path: Armature/Leg_IK_R
+        weight: 0
+      - path: Armature/Leg_IK_R/Calf_R_002
+        weight: 0
+      - path: Camera
+        weight: 0
+      - path: Eyes
+        weight: 0
+      - path: Faye
+        weight: 0
+      - path: Hair_B
+        weight: 0
+      - path: Hair_F
+        weight: 0
+      - path: Lamp
+        weight: 0
+      - path: Lamp_001
+        weight: 0
+      - path: Lamp_002
+        weight: 0
+      - path: Lashes
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: Run
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Abdomen
+        weight: 1
+      - path: Armature/Abdomen/Thigh_L
+        weight: 1
+      - path: Armature/Abdomen/Thigh_L/Calf_L
+        weight: 1
+      - path: Armature/Abdomen/Thigh_R
+        weight: 1
+      - path: Armature/Abdomen/Thigh_R/Calf_R
+        weight: 1
+      - path: Armature/Abdomen/Torso
+        weight: 1
+      - path: Armature/Abdomen/Torso/Neck
+        weight: 1
+      - path: Armature/Abdomen/Torso/Neck/Head
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_L
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_L/Forearm_L
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_L/Forearm_L/Hand_L
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_R
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_R/Forearm_R
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_R/Forearm_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_IK_L
+        weight: 0
+      - path: Armature/Arm_IK_R
+        weight: 0
+      - path: Armature/Elbow_L
+        weight: 0
+      - path: Armature/Elbow_R
+        weight: 0
+      - path: Armature/Knee_L
+        weight: 1
+      - path: Armature/Knee_R
+        weight: 1
+      - path: Armature/Leg_IK_L
+        weight: 0
+      - path: Armature/Leg_IK_L/Calf_L_001
+        weight: 0
+      - path: Armature/Leg_IK_R
+        weight: 0
+      - path: Armature/Leg_IK_R/Calf_R_002
+        weight: 0
+      - path: Camera
+        weight: 0
+      - path: Eyes
+        weight: 0
+      - path: Faye
+        weight: 0
+      - path: Hair_B
+        weight: 0
+      - path: Hair_F
+        weight: 0
+      - path: Lamp
+        weight: 0
+      - path: Lamp_001
+        weight: 0
+      - path: Lamp_002
+        weight: 0
+      - path: Lashes
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .00999999978
+    globalScale: .800000012
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -127,7 +415,7 @@ ModelImporter:
   copyAvatar: 0
   humanDescription:
     human:
-    - boneName: Abdomen
+    - boneName: Armature
       humanName: Hips
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -145,6 +433,14 @@ ModelImporter:
         modified: 0
     - boneName: Calf_R
       humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Calf_R_002
+      humanName: RightFoot
       limit:
         min: {x: 0, y: 0, z: 0}
         max: {x: 0, y: 0, z: 0}
@@ -239,15 +535,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Armature
-      humanName: RightFoot
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Armature
+    - boneName: Calf_L_001
       humanName: LeftFoot
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -262,172 +550,172 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: Armature
-      position: {x: 0, y: .0259314943, z: 0}
-      rotation: {x: -.707106829, y: 0, z: 0, w: .707106709}
+      position: {x: 0, y: 2.07451963, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106709}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: Abdomen
-      position: {x: 5.23331109e-05, y: .000293506426, z: -.0258166846}
+      position: {x: -0, y: .0234802719, z: 0}
       rotation: {x: .511280656, y: .509225786, z: -.488611758, w: .490448564}
       scale: {x: 1.00000012, y: 1.00000012, z: 1}
       transformModified: 1
     - name: Thigh_L
-      position: {x: -.000901976891, y: -.0022663984, z: .000223121824}
+      position: {x: -.0721581504, y: -.181311876, z: .0178497471}
       rotation: {x: .0117719341, y: .955887556, z: -.277244836, w: .0963104144}
       scale: {x: .999999881, y: .999999881, z: .999999881}
       transformModified: 1
     - name: Calf_L
-      position: {x: -.0100221885, y: 6.70552225e-10, z: 0}
-      rotation: {x: .0173677765, y: -.671278358, z: .64353925, w: .367343336}
+      position: {x: -.801775098, y: 5.36441824e-08, z: 0}
+      rotation: {x: -.294820428, y: .112226449, z: .00889358297, w: .948897779}
       scale: {x: 1, y: 1.00000024, z: 1}
       transformModified: 1
+    - name: Leg_IK_L
+      position: {x: -.909346223, y: -.00121253729, z: .0259899944}
+      rotation: {x: -.0292818677, y: -.697197795, z: -.000265687646, w: -.716280401}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Calf_L_001
+      position: {x: .025931403, y: -8.82002649e-09, z: -.00343542104}
+      rotation: {x: .0784727335, y: .987285078, z: -.00852333196, w: -.137976855}
+      scale: {x: .999999821, y: 1, z: .999999881}
+      transformModified: 1
     - name: Thigh_R
-      position: {x: -.000884700159, y: .00216875225, z: .000222507821}
+      position: {x: -.0707760155, y: .17350018, z: .0178006273}
       rotation: {x: .0449639149, y: .95674324, z: -.274031371, w: .0867609754}
       scale: {x: .999999821, y: 1, z: .999999881}
       transformModified: 1
     - name: Calf_R
-      position: {x: -.0100221895, y: 8.94069652e-10, z: 7.45058043e-11}
-      rotation: {x: -.218683109, y: -.908933461, z: -.199004799, w: .293963879}
+      position: {x: -.801775157, y: 7.15255766e-08, z: 5.96046457e-09}
+      rotation: {x: -.295404762, y: .0930768475, z: -.0633291006, w: .948716044}
       scale: {x: 1, y: .999999881, z: 1}
       transformModified: 1
+    - name: Leg_IK_R
+      position: {x: -.909346461, y: -.000993065536, z: .0259954333}
+      rotation: {x: -.00108099554, y: -.696582794, z: -.0292632915, w: -.716878593}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Calf_R_002
+      position: {x: .0259314086, y: 1.50218309e-08, z: -.00343542104}
+      rotation: {x: -.0777974874, y: .987231612, z: .0133469356, w: -.138358727}
+      scale: {x: .999999821, y: 1.00000024, z: 1}
+      transformModified: 1
     - name: Torso
-      position: {x: -.0070831487, y: 5.375419e-10, z: 3.89759683e-11}
+      position: {x: -.56665194, y: 4.30033502e-08, z: 3.11807757e-09}
       rotation: {x: -.0181220155, y: -.109558985, z: -.00546988659, w: .993800044}
       scale: {x: .999999881, y: .999999702, z: .999999702}
       transformModified: 1
     - name: Neck
-      position: {x: -.00627110898, y: 4.74392414e-10, z: -5.84077509e-11}
-      rotation: {x: -.0331240594, y: .330143332, z: .00608883472, w: .943329871}
+      position: {x: -.501688719, y: 3.79513949e-08, z: -4.67262007e-09}
+      rotation: {x: -.0329690874, y: .369979173, z: .00577186095, w: .928436935}
       scale: {x: .999999881, y: 1, z: 1}
       transformModified: 1
     - name: Head
-      position: {x: -.00216210657, y: 1.78115439e-10, z: 4.96511332e-10}
+      position: {x: -.172968537, y: 1.42492356e-08, z: 3.97209092e-08}
       rotation: {x: .0518248416, y: -.280918837, z: .00249585416, w: .958328009}
       scale: {x: .999999881, y: .999999762, z: .999999762}
       transformModified: 1
     - name: UpperArm_L
-      position: {x: -.00557113672, y: -.00332451961, z: -.000300750078}
+      position: {x: -.44569096, y: -.265961587, z: -.0240600072}
       rotation: {x: .164568484, y: .130179554, z: .706317544, w: .676081359}
       scale: {x: .999999762, y: .999999881, z: .999999881}
       transformModified: 1
     - name: Forearm_L
-      position: {x: -.00532984082, y: 6.70552225e-10, z: 1.35041769e-10}
+      position: {x: -.42638728, y: 5.36441824e-08, z: 1.08033422e-08}
       rotation: {x: -.787241101, y: .018079076, z: -.00596330594, w: .616351426}
       scale: {x: .99999994, y: .999999881, z: .999999881}
       transformModified: 1
     - name: Hand_L
-      position: {x: -.00618210714, y: 4.19369123e-10, z: -1.24346722e-09}
+      position: {x: -.494568586, y: 3.35495329e-08, z: -9.94773828e-08}
       rotation: {x: .0197101757, y: -.0198336225, z: -.00567579316, w: .9995929}
       scale: {x: 1, y: .999999881, z: 1}
       transformModified: 1
     - name: UpperArm_R
-      position: {x: -.00559173571, y: .00325320754, z: -6.22478328e-05}
+      position: {x: -.447338879, y: .260256618, z: -.00497982651}
       rotation: {x: -.271247625, y: .288736314, z: -.655236423, w: .643211722}
       scale: {x: .999999821, y: 1, z: .99999994}
       transformModified: 1
     - name: Forearm_R
-      position: {x: -.00532983989, y: -3.16649679e-10, z: 4.14438539e-10}
+      position: {x: -.426387221, y: -2.53319747e-08, z: 3.31550858e-08}
       rotation: {x: .892547905, y: .0165672153, z: .00937761273, w: .450550556}
       scale: {x: .999999762, y: 1.00000012, z: .999999881}
       transformModified: 1
     - name: Hand_R
-      position: {x: -.00618210621, y: 5.74509607e-10, z: -4.55041782e-10}
+      position: {x: -.494568497, y: 4.59607712e-08, z: -3.64033461e-08}
       rotation: {x: .991531849, y: .00349315815, z: .0203318726, w: .128214836}
       scale: {x: .999999821, y: .999999881, z: .99999994}
       transformModified: 1
     - name: Arm_IK_L
-      position: {x: -.0148519361, y: .00120767916, z: .0123693477}
+      position: {x: -1.18815494, y: .096614331, z: .989547849}
       rotation: {x: 0, y: 0, z: -.707106709, w: .707106829}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: Arm_IK_R
-      position: {x: .0147472676, y: .00120767893, z: .0123693477}
+      position: {x: 1.17978144, y: .0966143161, z: .989547849}
       rotation: {x: 0, y: 0, z: -.707106709, w: .707106829}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: Elbow_L
-      position: {x: -.00940836221, y: -.0115935216, z: .00965744443}
+      position: {x: -.752669036, y: -.927481771, z: .772595584}
       rotation: {x: .5, y: .5, z: -.5, w: .5}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: Elbow_R
-      position: {x: .00930369552, y: -.0115935216, z: .00965744443}
+      position: {x: .744295657, y: -.927481771, z: .772595584}
       rotation: {x: .5, y: .5, z: -.5, w: .5}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: Knee_L
-      position: {x: -.00503883883, y: -.0121285794, z: -.00887850393}
+      position: {x: -.403107136, y: -.970286369, z: -.710280359}
       rotation: {x: .5, y: .5, z: -.5, w: .5}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: Knee_R
-      position: {x: .00493417215, y: -.0121285794, z: -.00887850393}
+      position: {x: .394733757, y: -.970286369, z: -.710280359}
       rotation: {x: .5, y: .5, z: -.5, w: .5}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: Leg_IK_L
-      position: {x: -.00238338532, y: -.000436125381, z: -.0203349851}
-      rotation: {x: .0121775549, y: .0121775521, z: -.707001925, w: .707001925}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
-    - name: Calf_L_001
-      position: {x: .000324142544, y: -1.10250323e-10, z: -4.294276e-05}
-      rotation: {x: .0784727335, y: .987285078, z: -.00852333196, w: -.137976855}
-      scale: {x: .999999821, y: 1, z: .999999881}
-      transformModified: 1
-    - name: Leg_IK_R
-      position: {x: .0022787184, y: -.000436125381, z: -.0203349851}
-      rotation: {x: .0121775549, y: .0121775521, z: -.707001925, w: .707001925}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
-    - name: Calf_R_002
-      position: {x: .000324142602, y: 1.87772881e-10, z: -4.294276e-05}
-      rotation: {x: -.0777974874, y: .987231612, z: .0133469356, w: -.138358727}
-      scale: {x: .999999821, y: 1.00000024, z: 1}
-      transformModified: 1
     - name: Camera
-      position: {x: -.0336822942, y: .0646907687, z: .081013687}
+      position: {x: -2.69458365, y: 5.17526197, z: 6.48109531}
       rotation: {x: .210611373, y: .905240178, z: -.0892816857, w: -.358066887}
       scale: {x: .99999994, y: .999999881, z: 1}
       transformModified: 1
     - name: Eyes
-      position: {x: 2.9978386e-05, y: .000154730296, z: .0172260106}
+      position: {x: .00239827088, y: .0123784244, z: 1.37808096}
       rotation: {x: 2.32830644e-10, y: -2.81033891e-10, z: 1.74622997e-10, w: 1}
       scale: {x: .260803908, y: .260803938, z: .260803908}
       transformModified: 1
     - name: Faye
-      position: {x: 3.38115169e-05, y: -.00045070349, z: .017364271}
+      position: {x: .00270492141, y: -.0360562801, z: 1.38914168}
       rotation: {x: 0, y: -0, z: 0, w: 1}
       scale: {x: .260803938, y: .260803938, z: .260803938}
       transformModified: 1
     - name: Hair_B
-      position: {x: -5.10142127e-05, y: -.00855918881, z: .00146948092}
+      position: {x: -.00408113701, y: -.684735119, z: .117558479}
       rotation: {x: .707106829, y: -3.02261688e-10, z: 3.42134515e-10, w: .707106709}
       scale: {x: .999999881, y: 1, z: 1}
       transformModified: 1
     - name: Hair_F
-      position: {x: -5.10142127e-05, y: -.00864315033, z: .00153358933}
+      position: {x: -.00408113701, y: -.691452026, z: .122687154}
       rotation: {x: .707106829, y: -3.02261688e-10, z: 3.42134515e-10, w: .707106709}
       scale: {x: .999999881, y: 1, z: 1}
       transformModified: 1
     - name: Lamp
-      position: {x: -.0142644607, y: .0114137884, z: .0212402251}
+      position: {x: -1.14115691, y: .913103104, z: 1.69921803}
       rotation: {x: .169075772, y: -.755880296, z: .272171348, w: .570947587}
       scale: {x: 1, y: .999999881, z: .999999881}
       transformModified: 1
     - name: Lamp_001
-      position: {x: -.0238243006, y: .0275399592, z: .0272961129}
+      position: {x: -1.90594411, y: 2.20319676, z: 2.18368912}
       rotation: {x: .169075772, y: -.755880296, z: .272171348, w: .570947587}
       scale: {x: 1, y: .999999881, z: .999999881}
       transformModified: 1
     - name: Lamp_002
-      position: {x: .0091075357, y: .0232804585, z: .0181093644}
+      position: {x: .728602886, y: 1.86243665, z: 1.4487493}
       rotation: {x: .169075772, y: -.755880296, z: .272171348, w: .570947587}
       scale: {x: 1, y: .999999881, z: .999999881}
       transformModified: 1
     - name: Lashes
-      position: {x: -5.37421874e-05, y: -.008511547, z: .00152265071}
+      position: {x: -.00429937523, y: -.68092376, z: .12181206}
       rotation: {x: .707106829, y: -3.02261688e-10, z: 3.42134515e-10, w: .707106709}
       scale: {x: .999999881, y: 1, z: 1}
       transformModified: 1
@@ -438,7 +726,7 @@ ModelImporter:
     armStretch: .0500000007
     legStretch: .0500000007
     feetSpacing: 0
-    rootMotionBoneName: 
+    rootMotionBoneName: Faye
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 3
   additionalBone: 0

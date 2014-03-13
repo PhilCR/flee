@@ -19,7 +19,7 @@ function Update () {
 		spectrum = audioSrc.GetSpectrumData(128,0, FFTWindow.BlackmanHarris);
 	}
 	
-	var newScale = Vector3(transform.localScale.x, Mathf.Clamp(spectrum[idx*2]*800,3,10), transform.localScale.z);
+	var newScale = Vector3(transform.localScale.x, transform.localScale.y, Mathf.Clamp(spectrum[idx*2]*800,3,10));
 	
 	transform.localScale = Vector3.Lerp (transform.localScale, newScale, 10 * Time.deltaTime);
 }
