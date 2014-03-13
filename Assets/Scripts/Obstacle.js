@@ -5,7 +5,7 @@ var hitSFX : AudioClip;
 var safeSFX : AudioClip;
 var isHit : boolean = false; 
 var scoreGUI : GUIText;
-var hitValue: int = 300;
+var hitValue: int = 10;
 
 function Start () {
 	
