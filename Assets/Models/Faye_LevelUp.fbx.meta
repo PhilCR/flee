@@ -1,0 +1,970 @@
+fileFormatVersion: 2
+guid: bbe7328f928d94649a527e32c25596a0
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Abdomen
+    100002: Arm_IK_L
+    100004: Arm_IK_R
+    100006: Armature
+    100008: Bone
+    100010: Bone_001
+    100012: Bone_002
+    100014: Bone_003
+    100016: Bone_004
+    100018: Bone_005
+    100020: Bone_006
+    100022: Bone_007
+    100024: Bone_008
+    100026: Bone_009
+    100028: Bone_010
+    100030: Bone_011
+    100032: Bone_012
+    100034: Bone_013
+    100036: Bone_014
+    100038: Bone_015
+    100040: Bone_016
+    100042: Bone_017
+    100044: Bone_018
+    100046: Bone_019
+    100048: Bone_020
+    100050: Bone_021
+    100052: Bone_022
+    100054: Bone_023
+    100056: Bone_024
+    100058: Bone_025
+    100060: Bone_026
+    100062: Bone_027
+    100064: Bone_028
+    100066: Bone_029
+    100068: Bone_030
+    100070: Bone_031
+    100072: Bone_032
+    100074: Bone_033
+    100076: Bone_034
+    100078: Bone_035
+    100080: Bone_036
+    100082: Bone_037
+    100084: Bone_038
+    100086: Bone_039
+    100088: Bone_040
+    100090: Bone_041
+    100092: Bone_042
+    100094: Bone_043
+    100096: Bone_044
+    100098: Bone_045
+    100100: Bone_046
+    100102: Bone_047
+    100104: Bone_048
+    100106: Bone_049
+    100108: Bone_050
+    100110: Bone_051
+    100112: Bone_052
+    100114: Bone_053
+    100116: Bone_054
+    100118: Bone_055
+    100120: Calf_L
+    100122: Calf_L_001
+    100124: Calf_R
+    100126: Calf_R_002
+    100128: Camera
+    100130: Elbow_L
+    100132: Elbow_R
+    100134: Eyebrows
+    100136: Eyes
+    100138: Faye
+    100140: //RootNode
+    100142: Forearm_L
+    100144: Forearm_R
+    100146: Hair_B
+    100148: Hair_F
+    100150: Hand_L
+    100152: Hand_R
+    100154: Head
+    100156: Helmet
+    100158: Hemi
+    100160: Knee_L
+    100162: Knee_R
+    100164: Leg_IK_L
+    100166: Leg_IK_R
+    100168: Neck
+    100170: Panties
+    100172: Point
+    100174: Point_001
+    100176: Point_002
+    100178: Shirt
+    100180: Skates
+    100182: Skirt
+    100184: Sleeves
+    100186: Socks
+    100188: Thigh_L
+    100190: Thigh_R
+    100192: Torso
+    100194: UpperArm_L
+    100196: UpperArm_R
+    100198: Vest
+    400000: Abdomen
+    400002: Arm_IK_L
+    400004: Arm_IK_R
+    400006: Armature
+    400008: Bone
+    400010: Bone_001
+    400012: Bone_002
+    400014: Bone_003
+    400016: Bone_004
+    400018: Bone_005
+    400020: Bone_006
+    400022: Bone_007
+    400024: Bone_008
+    400026: Bone_009
+    400028: Bone_010
+    400030: Bone_011
+    400032: Bone_012
+    400034: Bone_013
+    400036: Bone_014
+    400038: Bone_015
+    400040: Bone_016
+    400042: Bone_017
+    400044: Bone_018
+    400046: Bone_019
+    400048: Bone_020
+    400050: Bone_021
+    400052: Bone_022
+    400054: Bone_023
+    400056: Bone_024
+    400058: Bone_025
+    400060: Bone_026
+    400062: Bone_027
+    400064: Bone_028
+    400066: Bone_029
+    400068: Bone_030
+    400070: Bone_031
+    400072: Bone_032
+    400074: Bone_033
+    400076: Bone_034
+    400078: Bone_035
+    400080: Bone_036
+    400082: Bone_037
+    400084: Bone_038
+    400086: Bone_039
+    400088: Bone_040
+    400090: Bone_041
+    400092: Bone_042
+    400094: Bone_043
+    400096: Bone_044
+    400098: Bone_045
+    400100: Bone_046
+    400102: Bone_047
+    400104: Bone_048
+    400106: Bone_049
+    400108: Bone_050
+    400110: Bone_051
+    400112: Bone_052
+    400114: Bone_053
+    400116: Bone_054
+    400118: Bone_055
+    400120: Calf_L
+    400122: Calf_L_001
+    400124: Calf_R
+    400126: Calf_R_002
+    400128: Camera
+    400130: Elbow_L
+    400132: Elbow_R
+    400134: Eyebrows
+    400136: Eyes
+    400138: Faye
+    400140: //RootNode
+    400142: Forearm_L
+    400144: Forearm_R
+    400146: Hair_B
+    400148: Hair_F
+    400150: Hand_L
+    400152: Hand_R
+    400154: Head
+    400156: Helmet
+    400158: Hemi
+    400160: Knee_L
+    400162: Knee_R
+    400164: Leg_IK_L
+    400166: Leg_IK_R
+    400168: Neck
+    400170: Panties
+    400172: Point
+    400174: Point_001
+    400176: Point_002
+    400178: Shirt
+    400180: Skates
+    400182: Skirt
+    400184: Sleeves
+    400186: Socks
+    400188: Thigh_L
+    400190: Thigh_R
+    400192: Torso
+    400194: UpperArm_L
+    400196: UpperArm_R
+    400198: Vest
+    2300000: Socks
+    3300000: Socks
+    4300000: Skates
+    4300002: Helmet
+    4300004: Eyebrows
+    4300006: Faye
+    4300008: Hair_B
+    4300010: Hair_F
+    4300012: Eyes
+    4300014: Sleeves
+    4300016: Vest
+    4300018: Skirt
+    4300020: Shirt
+    4300022: Panties
+    4300024: Socks
+    6400000: Socks
+    7400000: Default Take
+    7400002: Idle
+    7400004: Idle_001
+    7400006: Recover
+    7400008: Run
+    9500000: //RootNode
+    13700000: Eyebrows
+    13700002: Eyes
+    13700004: Faye
+    13700006: Hair_B
+    13700008: Hair_F
+    13700010: Helmet
+    13700012: Panties
+    13700014: Shirt
+    13700016: Skates
+    13700018: Skirt
+    13700020: Sleeves
+    13700022: Vest
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: -1
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Abdomen
+        weight: 1
+      - path: Armature/Abdomen/Bone
+        weight: 1
+      - path: Armature/Abdomen/Bone/Bone_001
+        weight: 1
+      - path: Armature/Abdomen/Bone_002
+        weight: 1
+      - path: Armature/Abdomen/Bone_002/Bone_003
+        weight: 1
+      - path: Armature/Abdomen/Bone_002/Bone_003/Bone_047
+        weight: 1
+      - path: Armature/Abdomen/Bone_004
+        weight: 1
+      - path: Armature/Abdomen/Bone_004/Bone_005
+        weight: 1
+      - path: Armature/Abdomen/Bone_004/Bone_005/Bone_051
+        weight: 1
+      - path: Armature/Abdomen/Bone_006
+        weight: 1
+      - path: Armature/Abdomen/Bone_006/Bone_007
+        weight: 1
+      - path: Armature/Abdomen/Bone_006/Bone_007/Bone_050
+        weight: 1
+      - path: Armature/Abdomen/Bone_008
+        weight: 1
+      - path: Armature/Abdomen/Bone_008/Bone_009
+        weight: 1
+      - path: Armature/Abdomen/Bone_010
+        weight: 1
+      - path: Armature/Abdomen/Bone_010/Bone_011
+        weight: 1
+      - path: Armature/Abdomen/Bone_012
+        weight: 1
+      - path: Armature/Abdomen/Bone_012/Bone_013
+        weight: 1
+      - path: Armature/Abdomen/Bone_012/Bone_013/Bone_048
+        weight: 1
+      - path: Armature/Abdomen/Bone_014
+        weight: 1
+      - path: Armature/Abdomen/Bone_014/Bone_015
+        weight: 1
+      - path: Armature/Abdomen/Bone_014/Bone_015/Bone_049
+        weight: 1
+      - path: Armature/Abdomen/Bone_052
+        weight: 1
+      - path: Armature/Abdomen/Bone_053
+        weight: 1
+      - path: Armature/Abdomen/Bone_054
+        weight: 1
+      - path: Armature/Abdomen/Bone_055
+        weight: 1
+      - path: Armature/Abdomen/Thigh_L
+        weight: 1
+      - path: Armature/Abdomen/Thigh_L/Calf_L
+        weight: 1
+      - path: Armature/Abdomen/Thigh_R
+        weight: 1
+      - path: Armature/Abdomen/Thigh_R/Calf_R
+        weight: 1
+      - path: Armature/Abdomen/Torso
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_016
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_016/Bone_017
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_016/Bone_017/Bone_018
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_019
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_019/Bone_020
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_019/Bone_020/Bone_021
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_022
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_022/Bone_023
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_022/Bone_023/Bone_024
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_025
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_025/Bone_026
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_025/Bone_026/Bone_027
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_028
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_028/Bone_029
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_028/Bone_029/Bone_030
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_031
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_031/Bone_032
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_031/Bone_032/Bone_033
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_034
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_034/Bone_035
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_034/Bone_035/Bone_036
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_037
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_037/Bone_038
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_037/Bone_038/Bone_039
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_040
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_040/Bone_041
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_040/Bone_041/Bone_042
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_043
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_043/Bone_044
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_045
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_045/Bone_046
+        weight: 1
+      - path: Armature/Abdomen/Torso/Neck
+        weight: 1
+      - path: Armature/Abdomen/Torso/Neck/Head
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_L
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_L/Forearm_L
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_L/Forearm_L/Hand_L
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_R
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_R/Forearm_R
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_R/Forearm_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_IK_L
+        weight: 1
+      - path: Armature/Arm_IK_R
+        weight: 1
+      - path: Armature/Elbow_L
+        weight: 1
+      - path: Armature/Elbow_R
+        weight: 1
+      - path: Armature/Knee_L
+        weight: 1
+      - path: Armature/Knee_R
+        weight: 1
+      - path: Armature/Leg_IK_L
+        weight: 1
+      - path: Armature/Leg_IK_L/Calf_L_001
+        weight: 1
+      - path: Armature/Leg_IK_R
+        weight: 1
+      - path: Armature/Leg_IK_R/Calf_R_002
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Eyebrows
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Faye
+        weight: 1
+      - path: Hair_B
+        weight: 1
+      - path: Hair_F
+        weight: 1
+      - path: Helmet
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Panties
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point_001
+        weight: 1
+      - path: Point_002
+        weight: 1
+      - path: Shirt
+        weight: 1
+      - path: Skates
+        weight: 1
+      - path: Skirt
+        weight: 1
+      - path: Sleeves
+        weight: 1
+      - path: Socks
+        weight: 1
+      - path: Vest
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Recover
+      takeName: Recover
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Abdomen
+        weight: 1
+      - path: Armature/Abdomen/Bone
+        weight: 1
+      - path: Armature/Abdomen/Bone/Bone_001
+        weight: 1
+      - path: Armature/Abdomen/Bone_002
+        weight: 1
+      - path: Armature/Abdomen/Bone_002/Bone_003
+        weight: 1
+      - path: Armature/Abdomen/Bone_002/Bone_003/Bone_047
+        weight: 1
+      - path: Armature/Abdomen/Bone_004
+        weight: 1
+      - path: Armature/Abdomen/Bone_004/Bone_005
+        weight: 1
+      - path: Armature/Abdomen/Bone_004/Bone_005/Bone_051
+        weight: 1
+      - path: Armature/Abdomen/Bone_006
+        weight: 1
+      - path: Armature/Abdomen/Bone_006/Bone_007
+        weight: 1
+      - path: Armature/Abdomen/Bone_006/Bone_007/Bone_050
+        weight: 1
+      - path: Armature/Abdomen/Bone_008
+        weight: 1
+      - path: Armature/Abdomen/Bone_008/Bone_009
+        weight: 1
+      - path: Armature/Abdomen/Bone_010
+        weight: 1
+      - path: Armature/Abdomen/Bone_010/Bone_011
+        weight: 1
+      - path: Armature/Abdomen/Bone_012
+        weight: 1
+      - path: Armature/Abdomen/Bone_012/Bone_013
+        weight: 1
+      - path: Armature/Abdomen/Bone_012/Bone_013/Bone_048
+        weight: 1
+      - path: Armature/Abdomen/Bone_014
+        weight: 1
+      - path: Armature/Abdomen/Bone_014/Bone_015
+        weight: 1
+      - path: Armature/Abdomen/Bone_014/Bone_015/Bone_049
+        weight: 1
+      - path: Armature/Abdomen/Bone_052
+        weight: 1
+      - path: Armature/Abdomen/Bone_053
+        weight: 1
+      - path: Armature/Abdomen/Bone_054
+        weight: 1
+      - path: Armature/Abdomen/Bone_055
+        weight: 1
+      - path: Armature/Abdomen/Thigh_L
+        weight: 1
+      - path: Armature/Abdomen/Thigh_L/Calf_L
+        weight: 1
+      - path: Armature/Abdomen/Thigh_R
+        weight: 1
+      - path: Armature/Abdomen/Thigh_R/Calf_R
+        weight: 1
+      - path: Armature/Abdomen/Torso
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_016
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_016/Bone_017
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_016/Bone_017/Bone_018
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_019
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_019/Bone_020
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_019/Bone_020/Bone_021
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_022
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_022/Bone_023
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_022/Bone_023/Bone_024
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_025
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_025/Bone_026
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_025/Bone_026/Bone_027
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_028
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_028/Bone_029
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_028/Bone_029/Bone_030
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_031
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_031/Bone_032
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_031/Bone_032/Bone_033
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_034
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_034/Bone_035
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_034/Bone_035/Bone_036
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_037
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_037/Bone_038
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_037/Bone_038/Bone_039
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_040
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_040/Bone_041
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_040/Bone_041/Bone_042
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_043
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_043/Bone_044
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_045
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_045/Bone_046
+        weight: 1
+      - path: Armature/Abdomen/Torso/Neck
+        weight: 1
+      - path: Armature/Abdomen/Torso/Neck/Head
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_L
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_L/Forearm_L
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_L/Forearm_L/Hand_L
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_R
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_R/Forearm_R
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_R/Forearm_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_IK_L
+        weight: 1
+      - path: Armature/Arm_IK_R
+        weight: 1
+      - path: Armature/Elbow_L
+        weight: 1
+      - path: Armature/Elbow_R
+        weight: 1
+      - path: Armature/Knee_L
+        weight: 1
+      - path: Armature/Knee_R
+        weight: 1
+      - path: Armature/Leg_IK_L
+        weight: 1
+      - path: Armature/Leg_IK_L/Calf_L_001
+        weight: 1
+      - path: Armature/Leg_IK_R
+        weight: 1
+      - path: Armature/Leg_IK_R/Calf_R_002
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Eyebrows
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Faye
+        weight: 1
+      - path: Hair_B
+        weight: 1
+      - path: Hair_F
+        weight: 1
+      - path: Helmet
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Panties
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point_001
+        weight: 1
+      - path: Point_002
+        weight: 1
+      - path: Shirt
+        weight: 1
+      - path: Skates
+        weight: 1
+      - path: Skirt
+        weight: 1
+      - path: Sleeves
+        weight: 1
+      - path: Socks
+        weight: 1
+      - path: Vest
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: Run
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Abdomen
+        weight: 1
+      - path: Armature/Abdomen/Bone
+        weight: 1
+      - path: Armature/Abdomen/Bone/Bone_001
+        weight: 1
+      - path: Armature/Abdomen/Bone_002
+        weight: 1
+      - path: Armature/Abdomen/Bone_002/Bone_003
+        weight: 1
+      - path: Armature/Abdomen/Bone_002/Bone_003/Bone_047
+        weight: 1
+      - path: Armature/Abdomen/Bone_004
+        weight: 1
+      - path: Armature/Abdomen/Bone_004/Bone_005
+        weight: 1
+      - path: Armature/Abdomen/Bone_004/Bone_005/Bone_051
+        weight: 1
+      - path: Armature/Abdomen/Bone_006
+        weight: 1
+      - path: Armature/Abdomen/Bone_006/Bone_007
+        weight: 1
+      - path: Armature/Abdomen/Bone_006/Bone_007/Bone_050
+        weight: 1
+      - path: Armature/Abdomen/Bone_008
+        weight: 1
+      - path: Armature/Abdomen/Bone_008/Bone_009
+        weight: 1
+      - path: Armature/Abdomen/Bone_010
+        weight: 1
+      - path: Armature/Abdomen/Bone_010/Bone_011
+        weight: 1
+      - path: Armature/Abdomen/Bone_012
+        weight: 1
+      - path: Armature/Abdomen/Bone_012/Bone_013
+        weight: 1
+      - path: Armature/Abdomen/Bone_012/Bone_013/Bone_048
+        weight: 1
+      - path: Armature/Abdomen/Bone_014
+        weight: 1
+      - path: Armature/Abdomen/Bone_014/Bone_015
+        weight: 1
+      - path: Armature/Abdomen/Bone_014/Bone_015/Bone_049
+        weight: 1
+      - path: Armature/Abdomen/Bone_052
+        weight: 1
+      - path: Armature/Abdomen/Bone_053
+        weight: 1
+      - path: Armature/Abdomen/Bone_054
+        weight: 1
+      - path: Armature/Abdomen/Bone_055
+        weight: 1
+      - path: Armature/Abdomen/Thigh_L
+        weight: 1
+      - path: Armature/Abdomen/Thigh_L/Calf_L
+        weight: 1
+      - path: Armature/Abdomen/Thigh_R
+        weight: 1
+      - path: Armature/Abdomen/Thigh_R/Calf_R
+        weight: 1
+      - path: Armature/Abdomen/Torso
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_016
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_016/Bone_017
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_016/Bone_017/Bone_018
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_019
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_019/Bone_020
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_019/Bone_020/Bone_021
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_022
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_022/Bone_023
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_022/Bone_023/Bone_024
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_025
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_025/Bone_026
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_025/Bone_026/Bone_027
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_028
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_028/Bone_029
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_028/Bone_029/Bone_030
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_031
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_031/Bone_032
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_031/Bone_032/Bone_033
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_034
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_034/Bone_035
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_034/Bone_035/Bone_036
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_037
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_037/Bone_038
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_037/Bone_038/Bone_039
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_040
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_040/Bone_041
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_040/Bone_041/Bone_042
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_043
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_043/Bone_044
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_045
+        weight: 1
+      - path: Armature/Abdomen/Torso/Bone_045/Bone_046
+        weight: 1
+      - path: Armature/Abdomen/Torso/Neck
+        weight: 1
+      - path: Armature/Abdomen/Torso/Neck/Head
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_L
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_L/Forearm_L
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_L/Forearm_L/Hand_L
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_R
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_R/Forearm_R
+        weight: 1
+      - path: Armature/Abdomen/Torso/UpperArm_R/Forearm_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_IK_L
+        weight: 1
+      - path: Armature/Arm_IK_R
+        weight: 1
+      - path: Armature/Elbow_L
+        weight: 1
+      - path: Armature/Elbow_R
+        weight: 1
+      - path: Armature/Knee_L
+        weight: 1
+      - path: Armature/Knee_R
+        weight: 1
+      - path: Armature/Leg_IK_L
+        weight: 1
+      - path: Armature/Leg_IK_L/Calf_L_001
+        weight: 1
+      - path: Armature/Leg_IK_R
+        weight: 1
+      - path: Armature/Leg_IK_R/Calf_R_002
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Eyebrows
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Faye
+        weight: 1
+      - path: Hair_B
+        weight: 1
+      - path: Hair_F
+        weight: 1
+      - path: Helmet
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Panties
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Point_001
+        weight: 1
+      - path: Point_002
+        weight: 1
+      - path: Shirt
+        weight: 1
+      - path: Skates
+        weight: 1
+      - path: Skirt
+        weight: 1
+      - path: Sleeves
+        weight: 1
+      - path: Socks
+        weight: 1
+      - path: Vest
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .5
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
