@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -46,17 +46,34 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Main Menu\Scripts\ControllerMenu.js" />
+     <Compile Include="Assets\Main Menu\Scripts\Level 1\Level one Back.js" />
+     <Compile Include="Assets\Main Menu\Scripts\Level 1\Level one next.js" />
+     <Compile Include="Assets\Main Menu\Scripts\MainMenu.js" />
+     <Compile Include="Assets\Main Menu\Scripts\color.js" />
+     <Compile Include="Assets\Scripts\AutoDestruction.js" />
      <Compile Include="Assets\Scripts\BuildingEffect.js" />
-     <Compile Include="Assets\Scripts\Camera.js" />
      <Compile Include="Assets\Scripts\ColorBlink.js" />
-     <Compile Include="Assets\Scripts\Initial.js" />
-     <Compile Include="Assets\Scripts\LevelControl.js" />
+     <Compile Include="Assets\Scripts\EndGame.js" />
+     <Compile Include="Assets\Scripts\GameControl.js" />
+     <Compile Include="Assets\Scripts\GameStart.js" />
      <Compile Include="Assets\Scripts\MovesPlatform.js" />
      <Compile Include="Assets\Scripts\MovesPlayer.js" />
-     <Compile Include="Assets\Scripts\MusicalMenu.js" />
+     <Compile Include="Assets\Scripts\MusicEffect.js" />
      <Compile Include="Assets\Scripts\Obstacle.js" />
-     <Compile Include="Assets\Scripts\ObstacleEffect.js" />
+     <Compile Include="Assets\Scripts\ObstacleGeneration.js" />
+     <Compile Include="Assets\Scripts\PlatformRepeater.js" />
+     <Compile Include="Assets\Scripts\PlayerControl.js" />
      <Compile Include="Assets\Scripts\Score.js" />
+     <Compile Include="Assets\Scripts\Speed.js" />
+     <Compile Include="Assets\Scripts\Speed0.js" />
+     <None Include="Assets\JMO Assets\Toony Gooch\Shaders\Toony_Gooch_RimOutlineHard.shader" />
+     <None Include="Assets\JMO Assets\Toony Gooch\!ToonyGooch Readme.txt" />
+     <None Include="Assets\JMO Assets\!JMO Assets Readme.txt" />
+     <None Include="Assets\JMO Assets\Toony Gooch\Shaders\Toony_Gooch_RimLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Gooch\Shaders\Toony_Gooch_RimAlpha.shader" />
+     <None Include="Assets\JMO Assets\Toony Gooch\Shaders\Toony_Gooch_RimOutline.shader" />
+     <None Include="Assets\JMO Assets\Toony Gooch\Shaders\Toony_Gooch.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

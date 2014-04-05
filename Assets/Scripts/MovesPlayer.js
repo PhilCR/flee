@@ -3,18 +3,11 @@
 var jumpForce : float = 250f;
 var sideSpeed : float = 7f;
 var player : GameObject;
+//var Horizontal : float;
 
 function Update () {
 
-	if (Input.GetKeyDown (KeyCode.C)){
-		player.transform.localScale = new Vector3 (1f, 0.5f, 1f);
-	}
-	
-	if (Input.GetKeyUp (KeyCode.C)){
-		player.transform.localScale = new Vector3 (1f, 1f, 1f);
-	}
-	
-	if (Input.GetKey (KeyCode.LeftArrow)){
+	if (Input.GetKey (KeyCode.LeftArrow) || Input.GetAxis("Horizontal") < -0.2){
 		if (player.transform.localPosition.x < -4f){
 			player.transform.localPosition.Set (-4f, player.transform.localPosition.y, player.transform.localPosition.z);
 		}else{
@@ -22,18 +15,12 @@ function Update () {
 		}
 	}
 	
-	if (Input.GetKey (KeyCode.RightArrow)){
+	if (Input.GetKey (KeyCode.RightArrow) || Input.GetAxis("Horizontal") > 0.2 ){
 		if (player.transform.localPosition.x > 4f){
 			player.transform.localPosition.Set (4f, player.transform.localPosition.y, player.transform.localPosition.z);
 		}else{
 			player.transform.Translate (Vector3.right * sideSpeed * Time.deltaTime);
 		}	
-	}
-	
-	if (Input.GetKeyDown (KeyCode.Space)) {
-		if (player.transform.localPosition.y < 0){
-			player.rigidbody.AddForce (Vector3.up * jumpForce);
-		}
 	}
 
 	if (player.transform.localPosition.x < -4f){

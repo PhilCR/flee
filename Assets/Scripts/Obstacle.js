@@ -2,28 +2,33 @@
 
 var audioFX : AudioSource;
 var hitSFX : AudioClip;
-var safeSFX : AudioClip;
-var isHit : boolean = false; 
-var scoreGUI : GUIText;
-var hitValue: int = 10;
+var hitValue: int;
 
-function Start () {
-	
-}
+var animos : Animator;
 
-function Update () {
-
-}
+var playerObject : GameObject;
 
 function OnTriggerEnter(col:Collider){
 	
 	if (col.tag == "Player"){
-		isHit = true;
-		audioFX.PlayOneShot(hitSFX,	200);
-		var curScore = scoreGUI.text;
-		curScore = curScore.Replace("Score:","");
-		var score : int = parseInt(curScore);
-		score -= hitValue;
-		scoreGUI.text = "Score: " + score;
+		audioFX.PlayOneShot(hitSFX,0.2);
+		transform.Rotate(90,0,0);
+		animos.Play("Recover");
+		
+		var playerScript : Speed = playerObject.GetComponent("Speed");
+		
+		if (playerScript.score - hitValue < 0)
+			playerScript.score = 0;
+		else
+			playerScript.score -= hitValue;
+		
+		if (playerScript.fowardSpeed - 10 < 10)
+			playerScript.fowardSpeed = 10;
+		else
+			playerScript.fowardSpeed -= 10;
+			
+		yield WaitForSeconds(0.5);
+		
+		Destroy(gameObject);
 	}
 }

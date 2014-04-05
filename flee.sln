@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{918634F9-410D-3BE9-5B2C-6074F18CC62B}") = "flee", "Assembly-CSharp.csproj", "{DB5E9736-3CE6-2E28-961F-C58982F3528B}"
+EndProject
 Project("{918634F9-410D-3BE9-5B2C-6074F18CC62B}") = "flee", "Assembly-UnityScript.unityproj", "{37B568C3-2464-94E1-A4C8-526940D114FB}"
 EndProject
 Global
@@ -9,6 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB5E9736-3CE6-2E28-961F-C58982F3528B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB5E9736-3CE6-2E28-961F-C58982F3528B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB5E9736-3CE6-2E28-961F-C58982F3528B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB5E9736-3CE6-2E28-961F-C58982F3528B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{37B568C3-2464-94E1-A4C8-526940D114FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{37B568C3-2464-94E1-A4C8-526940D114FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37B568C3-2464-94E1-A4C8-526940D114FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -17,7 +23,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																																															GlobalSection(MonoDevelopProperties) = preSolution
+																																																																														GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
