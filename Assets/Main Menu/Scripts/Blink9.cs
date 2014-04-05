@@ -14,18 +14,20 @@ public class Blink9 : MonoBehaviour {
 		
 		if (Input.GetAxis ("Horizontal") == 0)
 			button = true;
-		
-		if (Input.GetButtonDown("AMac") || Input.GetButtonDown("APC"))
+
+		if (Input.GetButtonDown("AMac") || Input.GetButtonDown("APC") || Input.GetKeyDown(KeyCode.A))
 			Application.LoadLevel("Blink182");
 		
-		if (Input.GetButtonDown ("BMac") || Input.GetButtonDown("BPC")) {
+		if (Input.GetButtonDown ("BMac") || Input.GetButtonDown("BPC") || Input.GetKeyDown(KeyCode.B)) {
 			Application.LoadLevel ("Main Menu");
 		}
 		
-		if (( Input.GetAxis("Horizontal")> 0.6 && button) || Input.GetButtonDown("RightMac"))
+		if (( Input.GetAxis("Horizontal")> 0.6 && button) || Input.GetButtonDown("RightMac") 
+		    	|| Input.GetKeyDown(KeyCode.RightArrow))
 			Application.LoadLevel("EuropeMenu");
 		
-		if ((Input.GetAxis("Horizontal")< -0.6 && button) || Input.GetButtonDown("LeftMac"))
+		if ((Input.GetAxis("Horizontal")< -0.6 && button) || Input.GetButtonDown("LeftMac")
+		    	|| Input.GetKeyDown(KeyCode.LeftArrow))
 			Application.LoadLevel("LegoMenu");
 	}
 }

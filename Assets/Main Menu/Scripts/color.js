@@ -1,47 +1,34 @@
 ﻿#pragma strict
 var num = 0;
 var act = 0;
-var buttonPress= false;
+var axisPress= false;
 
 function Update () {
 
 if (Input.GetAxis("Vertical")==0)
-	buttonPress = false;
+	axisPress = false;
 
-if (Input.GetAxis("Vertical")<= -0.4 && buttonPress == false){
+if ((Input.GetAxis("Vertical")<= -0.4 && axisPress == false) || Input.GetKeyDown(KeyCode.DownArrow)
+	|| Input.GetButtonDown("RightMac") || Input.GetKeyDown(KeyCode.RightArrow)){
 	if (act==3)
 		act=1;
 	else
 		act++;
-	buttonPress = true;
+	axisPress = true;
 }
 	 
-if (Input.GetAxis("Vertical")>= 0.4 && buttonPress == false){
+if ((Input.GetAxis("Vertical")>= 0.4 && axisPress == false) || Input.GetKeyDown(KeyCode.UpArrow) 
+	|| Input.GetButtonDown("LeftMac")  || Input.GetKeyDown(KeyCode.LeftArrow)){
 	if (act==1)
 		act=3;
 	else
 		act--;
-	buttonPress = true;
+	axisPress = true;
 }
 
-if (Input.GetButtonDown("RightMac")){
-	if (act==3)
-		act=1;
-	else
-		act++;
-	buttonPress = true;
-}
-			
-if (Input.GetButtonDown("LeftMac")){
-	if (act==1)
-		act=3;
-	else
-		act--;
-	buttonPress = true;
-}
-
-if(Input.GetButtonDown("AMac") || Input.GetButtonDown("APC"))
-{
+if(Input.GetButtonDown("AMac") || Input.GetButtonDown("APC") 
+	|| Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.KeypadEnter) 
+	|| Input.GetKeyDown(KeyCode.Space)){
 	if(act==1)
 		Application.LoadLevel("RiotMenu");
 	else if(act==2)
@@ -53,7 +40,7 @@ if(Input.GetButtonDown("AMac") || Input.GetButtonDown("APC"))
 
 if(num == act)
 	renderer.material.color=Color.red;
-	else
-		renderer.material.color=Color.white;
+else
+	renderer.material.color=Color.white;
 
 }

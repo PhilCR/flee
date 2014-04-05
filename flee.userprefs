@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Speed.js">
     <Files>
-      <File FileName="Assets/Scripts/Obstacle.js" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/ObstacleGeneration.js" Line="117" Column="36" />
+      <File FileName="Assets/Main Menu/Scripts/color.js" Line="26" Column="19" />
+      <File FileName="Assets/Scripts/GameControl.js" Line="86" Column="67" />
       <File FileName="Assets/Scripts/Speed.js" Line="52" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>

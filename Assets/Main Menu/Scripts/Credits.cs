@@ -13,7 +13,7 @@ public class Credits : MonoBehaviour {
 	void Update () {
 		
 
-		if (Input.GetButtonDown ("BMac") || Input.GetButtonDown ("BPC")) {
+		if (Input.GetButtonDown ("BMac") || Input.GetButtonDown ("BPC") || Input.GetKeyDown(KeyCode.B)){
 			Application.LoadLevel ("Main Menu");
 		}
 	

@@ -27,7 +27,7 @@ function Start(){
 }
 
 function Update(){
-	if (Input.GetButtonDown("Pause") || Input.GetButtonDown(systemPause) ){
+	if (Input.GetButtonDown("Pause") || Input.GetButtonDown(systemPause)){
 		isPause = !isPause;
 	
 		if(isPause){
@@ -49,13 +49,15 @@ function Update(){
 		if (Input.GetAxisRaw("HorizontalPC") == 0 && Input.GetAxisRaw("HorizontalRPC") == 0)
 			horizontalPC = false;
 			
-		//For Keyboard
-		if (Input.GetKeyDown (KeyCode.RightArrow) || (Input.GetAxisRaw("Horizontal") > 0.5) && horizontal == false){
+		
+		if (Input.GetKeyDown (KeyCode.RightArrow) || Input.GetKeyDown (KeyCode.DownArrow)
+			|| (Input.GetAxisRaw("Horizontal") > 0.5) && horizontal == false){
 			goRight();
 			horizontal = true;
 		}
 		
-		if (Input.GetKeyDown (KeyCode.LeftArrow) || Input.GetAxis("Horizontal") < -0.5 && horizontal == false){
+		if (Input.GetKeyDown (KeyCode.LeftArrow) || Input.GetKeyDown (KeyCode.UpArrow)
+			|| Input.GetAxis("Horizontal") < -0.5 && horizontal == false){
 			goLeft();
 			horizontal = true;
 		}
@@ -81,7 +83,7 @@ function Update(){
 				horizontalMac = true;
 			}
 			
-			if( Input.GetButtonDown("AMac") ){
+			if( Input.GetButtonDown("AMac") || Input.GetKeyDown(KeyCode.A)){
 				switch (optionMenu){
 					case 0 :
 						Time.timeScale = 1;
@@ -122,7 +124,7 @@ function Update(){
 				horizontalPC = true;
 			}
 			
-			if( Input.GetButtonDown("APC") ){
+			if( Input.GetButtonDown("APC") || Input.GetKeyDown(KeyCode.A)){
 				switch (optionMenu){
 					case 0 :
 						isPause = !isPause;
